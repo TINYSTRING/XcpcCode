@@ -86,5 +86,12 @@
         "typeinfo": "cpp",
         "valarray": "cpp",
         "variant": "cpp"
-    }
+    },
+    "C_Cpp.errorSquiggles": "disabled",
+    "animations.Active": "Indent",
+    "animations.Command-Palette": "Slide",
+    "animations.Scrolling": "None",
+    "animations.Tabs": "Slide",
+    "animations.Focus-Dimming-Mode": "None",
+    "animations.Smooth-Mode": true,
 }

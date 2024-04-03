@@ -58,11 +58,11 @@ void solve()
     sort(b + 1, b + n + 1, greater<int>());
     f(i, 1, n)
     {
-        mp[b[i]] = i;
+        mp[b[i]] = i; // 离散化,使得如果错位,大的肯定会先出现,因为对应的序号较小
     }
     f(i, 1, n)
     {
-        ans += query(mp[c[i]]-1);
+        ans += query(mp[c[i]] - 1);
         update(mp[c[i]], 1);
     }
     cout << ans << endl;

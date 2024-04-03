@@ -1,5 +1,5 @@
+#include <algorithm>
 #include <bits/stdc++.h>
-#include <cmath>
 #define endl '\n'
 #define ll long long
 #define int long long
@@ -18,50 +18,53 @@
 #define INF LONG_LONG_MAX
 using namespace std;
 // set<int>::iterator it;
-int h[maxn] = {0};
-int temp[maxn] = {0};
 void solve()
 {
+    set<int> s;
     int n;
     cin >> n;
-    int maxtime = 0;
     f(i, 1, n)
     {
-        cin >> h[i];
-        int t = h[i];
-        while (t - 1)
-        {
-            temp[i]++;
-            t = sqrt(t / 2 + 1);
-        }
-        maxtime = max(maxtime, temp[i]);
+        int x;
+        cin >> x;
+        s.insert(x);
     }
-    int ans = 0;
-    ff(i, maxtime, 1)
+    vector<int> v;
+    for (auto x : s)
     {
-        f(j, 1, n)
+        v.pb(x);
+    }
+    int ans = 1, sum = 1;//至少能有一个区间长度
+    int id = 0;
+    f(i, 1, v.size() - 1)
+    {
+        if (v[i] - v[id] >= n)//考虑极差
         {
-            if (temp[j] == i)
+            ans = max(ans, sum);
+            while (id < i && v[i] - v[id] >= n)
             {
-                if (h[j] != h[j + 1])
-                {
-                    ans++;
-                }
-                temp[j]--;
-                h[j]=sqrt(h[j]/2+1);
+                id++;
             }
+            sum = i - id + 1;
+        }
+        else
+        {
+            sum++;
         }
     }
+    ans = max(ans, sum);
     cout << ans << endl;
     return;
 }
 signed main(void)
 {
     ios::sync_with_stdio(false), cin.tie(nullptr);
-    int t = 1;
+    int t;
+    cin >> t;
     while (t--)
     {
         solve();
     }
+
     return 0;
 }
