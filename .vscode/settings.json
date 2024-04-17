@@ -94,4 +94,5 @@
     "animations.Tabs": "Slide",
     "animations.Focus-Dimming-Mode": "None",
     "animations.Smooth-Mode": true,
+    "cmake.sourceDirectory": "/home/tinyst/XcpcCode",
 }

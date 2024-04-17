@@ -21,51 +21,57 @@ map<int, int> mp;
 int a[maxn] = {0};
 int b[maxn] = {0};
 int c[maxn] = {0};
+int d[maxn] = {0};
 int lowbit(int x)
 {
     return x & -x;
 }
 
-void update(int i, int x)
+void update(int i, int x, int y)
 {
     while (i <= n)
     {
         a[i] += x;
+        d[i] += y;
         i += lowbit(i);
     }
     return;
 }
 
-int query(int i)
+pii query(int i)
 {
     int ans = 0;
+    int ans1 = 0;
     while (i > 0)
     {
         ans += a[i];
+        ans1 += d[i];
         i -= lowbit(i);
     }
-    return ans;
+    return {ans, ans1};
 }
 void solve()
 {
     cin >> n;
     int ans = 0;
-    f(i, 1, n)
+    ff(i, n, 1)
     {
         cin >> b[i];
         c[i] = b[i];
     }
     sort(b + 1, b + n + 1, greater<int>());
-    f(i, 1, n)
+    int m=unique(b+1,b+n+1)-b-1;
+    f(i, 1, m)
     {
         mp[b[i]] = i; // 离散化,使得如果错位,大的肯定会先出现,因为对应的序号较小,相当于第几大的数
     }
     f(i, 1, n)
     {
-        ans += query(mp[c[i]] - 1);
-        update(mp[c[i]], 1);
+        auto [x, y] = query(mp[c[i]] - 1);
+        ans += c[i] * x - y;
+        update(mp[c[i]], 1, c[i]);
     }
-    cout << ans << endl;
+    cout << abs(ans) << endl;
     mp.clear();
     return;
 }

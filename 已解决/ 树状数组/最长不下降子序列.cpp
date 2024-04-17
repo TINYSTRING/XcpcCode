@@ -57,12 +57,13 @@ signed main(void)
     f(i, 1, n)
     {
         cin >> a[i].val;
-        a[i].num = i;//离散化
+        a[i].num = i; // 离散化
     }
-    sort(a + 1, a + n + 1, cmp);//按权值优先排序,
+    sort(a + 1, a + n + 1, cmp); // 按权值优先排序,
     int ans = 0;
     f(i, 1, n)
     {
+        //dp[i] = max(dp[j]+1) 1<=j<i
         int maxx = query(a[i].num);
         update(a[i].num, ++maxx);
         ans = max(ans, maxx);

@@ -26,9 +26,9 @@ void dijstra(int s)
     while (!q.empty())
     {
         int u = q.top().second;
-        int du = q.top().first;
+        int du = q.top().first;// 距离
         q.pop();
-        if (du > dist[u])
+        if (du > dist[u])//如果当前距离大于最短距离，说明已经更新过了
             continue;
         for (auto x : g[u])
         {
