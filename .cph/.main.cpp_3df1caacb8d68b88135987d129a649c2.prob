@@ -1,0 +1,1 @@
+{"name":"Local: main","url":"/home/tinyst/XcpcCode/main.cpp","tests":[{"id":1716365712387,"input":"3\n1 79+81\n2 81-79\n3 183+69","output":"160\n12\n142"},{"id":1716367360332,"input":"2\n3 1281-796\n3 2345+128","output":"1595\n2463"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/tinyst/XcpcCode/main.cpp","group":"local","local":true}
