@@ -16,7 +16,7 @@ using namespace std;
 // set<int>::iterator it;
 pii edge;
 vector<pii> g[maxn];//存储要到的顶点和距离
-priority_queue<pii, vector<pii>, greater<pii>> q;
+priority_queue<pii, vector<pii>, greater<pii>> q;//存储距离和顶点,greater表示小顶堆,默认是大顶堆,q.top()是最小的
 int dist[maxn];
 int pre[maxn];
 void dijstra(int s)

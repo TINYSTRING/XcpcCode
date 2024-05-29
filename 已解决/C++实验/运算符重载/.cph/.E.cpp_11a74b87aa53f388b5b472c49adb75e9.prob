@@ -1,0 +1,1 @@
+{"name":"Local: E","url":"/home/tinyst/XcpcCode/已解决/C++实验/运算符重载/E.cpp","tests":[{"id":1716970421123,"input":"3\nTom 1995 1 1\nJoe 1995 2 28\nJimmy 1996 1 8","output":"Tom和Joe年龄相差最小，为58天。"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/tinyst/XcpcCode/已解决/C++实验/运算符重载/E.cpp","group":"local","local":true}
