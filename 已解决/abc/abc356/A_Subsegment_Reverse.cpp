@@ -21,15 +21,17 @@ using namespace std;
 signed main(void)
 {
     ios::sync_with_stdio(false),cin.tie(nullptr);
-    int t;
-    cin>>t;
-    while(t--)
+    int n,l,r;
+    cin>>n>>l>>r;
+    l--,r--;
+    vector<int> a(n);
+    iota(all(a),1);
+    reverse(a.begin()+l,a.begin()+r+1);
+    for(auto x:a)
     {
-        int n;
-        cin>>n;
-        f(i,1,n)
-        {
-        }   
+        cout<<x<<" ";
     }
+
+
     return 0;
 }

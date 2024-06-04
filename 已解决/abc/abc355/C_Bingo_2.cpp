@@ -29,7 +29,7 @@ signed main(void)
         int a;
         cin >> a;
         int x = (a - 1) / n + 1; // 使j-1在（0，n-1）之间
-        int y = a - n * (x - 1);
+        int y = (a - 1) % n + 1;
         prei[x]++;
         prej[y]++;
         if (prei[x] >= n || prej[y] >= n)
@@ -37,7 +37,7 @@ signed main(void)
             cout << i << endl;
             return 0;
         }
-        if (x == y)
+        if (x == y)//两个检查是独立的，所以不能用else if
         {
             d1++;
             if (d1 >= n)
@@ -46,7 +46,7 @@ signed main(void)
                 return 0;
             }
         }
-        else if (x + y == n + 1)
+        if (x + y == n + 1)
         {
             d2++;
             if (d2 >= n)
