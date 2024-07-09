@@ -21,15 +21,10 @@ using namespace std;
 signed main(void)
 {
     ios::sync_with_stdio(false),cin.tie(nullptr);
-    int t;
-    cin>>t;
-    while(t--)
-    {
-        int n;
-        cin>>n;
-        f(i,1,n)
-        {
-        }   
-    }
+    int a,b;
+    cin>>a>>b;
+    
+    cout<<a+b<<endl;
+
     return 0;
 }

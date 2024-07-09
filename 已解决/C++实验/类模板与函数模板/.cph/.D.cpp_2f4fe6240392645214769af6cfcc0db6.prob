@@ -1,0 +1,1 @@
+{"name":"Local: D","url":"/home/tinyst/XcpcCode/已解决/C++实验/类模板与函数模板/D.cpp","tests":[{"id":1718782676385,"input":"2\nI 2 3\n1 2 3\n4 5 6\nC 3 3\na b c\nd e f\ng h i","output":"1 4\n2 5\n3 6\na d g\nb e h\nc f i"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/tinyst/XcpcCode/已解决/C++实验/类模板与函数模板/D.cpp","group":"local","local":true}

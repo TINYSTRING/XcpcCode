@@ -1,0 +1,1 @@
+{"name":"Local: B","url":"/home/tinyst/XcpcCode/已解决/C++实验/期末模拟/B.cpp","tests":[{"id":1719386418663,"input":"3 3000 300\n5 5000 500\n2\n","output":"硬度8--重量8000--体积800\n硬度3--重量3000--体积600\n硬度4--重量3300--体积330\n硬度4--重量4500--体积450\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/tinyst/XcpcCode/已解决/C++实验/期末模拟/B.cpp","group":"local","local":true}

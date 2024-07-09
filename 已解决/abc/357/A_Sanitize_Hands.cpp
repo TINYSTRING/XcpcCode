@@ -17,33 +17,26 @@
 #define INF LONG_LONG_MAX
 using namespace std;
 // set<int>::iterator it;
-void solve()
-{
-    int n;
-    cin >> n;
-    vector<int> a(n);
-    for (auto& i : a)
-    {
-        cin >> i;
-    }
-    vector<int>tmp;
-    f(i,0,n-2)
-    {
-        tmp.pb(gcd(a[i],a[i+1]));
-        cout<<gcd(a[i],a[i+1])<<" ";
-    }
-    cout<<endl;
-    return;
-}
+
 signed main(void)
 {
     ios::sync_with_stdio(false), cin.tie(nullptr);
-    int t;
-    cin >> t;
-    while (t--)
+    int n, m;
+    cin >> n >> m;
+    // m*=2;
+    vector<int> a(n);
+    int ans=0;
+    for (auto& i : a)
     {
-        solve();
+        cin >> i;
+        if(i>m)
+        {
+            break;
+        }
+        ans++;
+        m-=i;
     }
+    cout<<ans<<endl;
 
     return 0;
 }

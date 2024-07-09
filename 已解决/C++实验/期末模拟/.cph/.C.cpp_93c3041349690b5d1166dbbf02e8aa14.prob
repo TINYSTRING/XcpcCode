@@ -1,0 +1,1 @@
+{"name":"Local: C","url":"/home/tinyst/XcpcCode/已解决/C++实验/期末模拟/C.cpp","tests":[{"id":1719388478376,"input":"10 5 1 2 3 4 5\n11.11 4 1.1 2.2 3.3 4.4\nO 3 a b c\n","output":"14 13 12 11 10\n14.41 13.31 12.21 11.11\nQ P O\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/tinyst/XcpcCode/已解决/C++实验/期末模拟/C.cpp","group":"local","local":true}

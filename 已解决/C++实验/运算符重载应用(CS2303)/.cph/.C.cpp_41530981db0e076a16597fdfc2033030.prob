@@ -1,0 +1,1 @@
+{"name":"Local: C","url":"/home/tinyst/XcpcCode/已解决/C++实验/运算符重载应用(CS2303)/C.cpp","tests":[{"id":1717570695265,"input":"11 58 46\n4\n5 70 -22 -55\n","output":"11:58:51\n0:0:1\n11:59:39\n11:58:44\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/tinyst/XcpcCode/已解决/C++实验/运算符重载应用(CS2303)/C.cpp","group":"local","local":true}

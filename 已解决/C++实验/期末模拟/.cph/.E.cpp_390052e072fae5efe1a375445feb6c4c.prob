@@ -1,0 +1,1 @@
+{"name":"Local: E","url":"/home/tinyst/XcpcCode/已解决/C++实验/期末模拟/E.cpp","tests":[{"id":1719388497087,"input":"1234\n2345\n","output":"中国计重:2斤4两6钱4克\n英国计重:4磅9盎司4打兰1克\n中国计重:4斤6两9钱0克\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/tinyst/XcpcCode/已解决/C++实验/期末模拟/E.cpp","group":"local","local":true}
