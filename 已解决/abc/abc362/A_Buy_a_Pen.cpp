@@ -20,12 +20,23 @@ using namespace std;
 
 signed main(void)
 {
-    ios::sync_with_stdio(false), cin.tie(nullptr);
-    int a, b;
-    cin >> a >> b;
-    string s;
-    cin >> s;
-    cout << a + b << endl;
+    ios::sync_with_stdio(false), cin.tie(nullptr), cout.tie(nullptr);
+    int r, g, b;
+    cin >> r >> g >> b;
+    string C;
+    cin >> C;
+    if (C == "Blue")
+    {
+        cout << min(r, g) << endl;
+    }
+    else if (C == "Red")
+    {
+        cout << min(g, b) << endl;
+    }
+    else
+    {
+        cout << min(r, b) << endl;
+    }
 
     return 0;
 }
