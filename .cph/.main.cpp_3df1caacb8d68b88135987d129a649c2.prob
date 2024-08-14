@@ -1,1 +1,1 @@
-{"name":"Local: main","url":"/home/tinyst/XcpcCode/main.cpp","tests":[],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/tinyst/XcpcCode/main.cpp","group":"local","local":true}
+{"name":"Local: main","url":"/home/tinyst/XcpcCode/main.cpp","tests":[{"id":1722694302857,"input":"20000","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/tinyst/XcpcCode/main.cpp","group":"local","local":true}
