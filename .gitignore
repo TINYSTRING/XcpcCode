@@ -1,1 +1,8 @@
-build/
+*
+!.clang-format
+!.gitignore
+!.vscode/
+!CMakeLists.txt
+!main.cpp
+!README.md
+!resolved/

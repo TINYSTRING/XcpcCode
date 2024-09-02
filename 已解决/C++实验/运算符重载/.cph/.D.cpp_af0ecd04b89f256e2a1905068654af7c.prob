@@ -1,1 +1,0 @@
-{"name":"Local: D","url":"/home/tinyst/XcpcCode/已解决/C++实验/运算符重载/D.cpp","tests":[{"id":1716970048176,"input":"2\n2\n1 2\n1 2\n1 0\n1 1","output":"3 2\n3 2"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/tinyst/XcpcCode/已解决/C++实验/运算符重载/D.cpp","group":"local","local":true}

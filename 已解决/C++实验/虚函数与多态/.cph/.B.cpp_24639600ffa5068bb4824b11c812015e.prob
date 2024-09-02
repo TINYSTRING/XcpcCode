@@ -1,1 +1,0 @@
-{"name":"Local: B","url":"/home/tinyst/XcpcCode/已解决/C++实验/虚函数与多态/B.cpp","tests":[{"id":1716362660916,"input":"4\n1 002 20 5\n3 009 30\n2 003 50\n1 010 17 6","output":"002 170\n009 900\n003 250\n010 148"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/tinyst/XcpcCode/已解决/C++实验/虚函数与多态/B.cpp","group":"local","local":true}

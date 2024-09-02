@@ -1,1 +1,0 @@
-{"name":"Local: B","url":"/home/tinyst/XcpcCode/已解决/C++实验/类模板与函数模板/B.cpp","tests":[{"id":1718781344246,"input":"3\nI 10\n5 3 5 2 9 7 3 7 2 3\nC 8\na b a e b e e q\nS 5\nsandy david eason cindy cindy\n","output":"3 3\ne 3\ncindy 2"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/tinyst/XcpcCode/已解决/C++实验/类模板与函数模板/B.cpp","group":"local","local":true}
