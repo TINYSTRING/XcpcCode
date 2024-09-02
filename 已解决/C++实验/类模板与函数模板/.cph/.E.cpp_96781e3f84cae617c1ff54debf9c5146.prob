@@ -1,1 +1,0 @@
-{"name":"Local: E","url":"/home/tinyst/XcpcCode/已解决/C++实验/类模板与函数模板/E.cpp","tests":[{"id":1718783695945,"input":"5 11 22 33 44 55\n2 888\n4\n5 1.1 2.2 3.3 4.4 5.5\n2 88.8\n3\n","output":"11 22 888 33 55\n1.1 2.2 88.8 4.4 5.5\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/tinyst/XcpcCode/已解决/C++实验/类模板与函数模板/E.cpp","group":"local","local":true}

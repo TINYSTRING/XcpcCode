@@ -1,1 +1,0 @@
-{"name":"Local: C","url":"/home/tinyst/XcpcCode/已解决/C++实验/类模板与函数模板/C.cpp","tests":[{"id":1718782254778,"input":"c\na b c d e f\ni \n1 2 3 4 5 6\nf\n1.1 1.2 1.3 4 5 6\nc\nf e v a c s","output":"Valid\nValid\nValid\nInvalid"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/tinyst/XcpcCode/已解决/C++实验/类模板与函数模板/C.cpp","group":"local","local":true}

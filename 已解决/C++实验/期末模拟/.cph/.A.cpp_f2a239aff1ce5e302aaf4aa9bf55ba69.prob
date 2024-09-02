@@ -1,1 +1,0 @@
-{"name":"Local: A","url":"/home/tinyst/XcpcCode/已解决/C++实验/期末模拟/A.cpp","tests":[{"id":1719385540393,"input":"1001 John 500\n244 300 \n8001 Jane 300 2 90\n100 420\n","output":"普通会员1001--John--444\n贵宾会员8001--Jane--140\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/tinyst/XcpcCode/已解决/C++实验/期末模拟/A.cpp","group":"local","local":true}

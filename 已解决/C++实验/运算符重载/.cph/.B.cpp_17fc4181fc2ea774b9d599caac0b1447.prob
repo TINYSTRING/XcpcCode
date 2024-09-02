@@ -1,1 +1,0 @@
-{"name":"Local: B","url":"/home/tinyst/XcpcCode/已解决/C++实验/运算符重载/B.cpp","tests":[{"id":1716967442684,"input":"10 20\n50 40","output":"Real=60 Image=60\nReal=-40 Image=-20\nReal=-300 Image=1400"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/tinyst/XcpcCode/已解决/C++实验/运算符重载/B.cpp","group":"local","local":true}
